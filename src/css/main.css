@@ -1,0 +1,44 @@
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh;
+    margin-left: 18rem;
+}
+
+#crud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh;
+    margin-left: 18rem;
+}
+
+.content{
+    overflow-y: auto;
+}
+
+
+.sidebar{
+    position: fixed;
+}
+
+@media only screen and (max-width: 578px) {
+
+    #home{
+    margin-left: 4rem;
+    }
+
+    #crud{
+    margin-left: 4rem;
+    }
+
+    .table{
+        margin-top: 2rem;
+    }
+
+    #crud{
+        margin-top: 8rem;
+    }
+
+  }
